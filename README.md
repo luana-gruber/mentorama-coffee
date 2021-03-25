@@ -1,2 +1,8 @@
-Seja bem-vindo ao curso do desenvolvimento Front-End!
-Por favor digite seu nome aqui: Luana Gruber
+Projeto que está sendo desenvolvido nas aulas do curso de Front-End do zero (Mentorama).
+
+Ferramentas utilizadas:
+
+HTML;
+CSS;
+Figma;
+JavaScript.
