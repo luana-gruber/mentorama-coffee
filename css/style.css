@@ -129,6 +129,7 @@ header{
 
 .main-section-variedades ul{
     margin-left: 80px;
+    
 }
 .main-section-variedades h2{
     font-family: 'Playfair Display', sans-serif;
@@ -150,39 +151,54 @@ header{
     font-size: 24px;
     margin-right: 32px;
     margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.main-section-variedades img{
+    display: block;
+    margin: 0px 0px 32px 144px;
+}
+
+.span-valor{
+    font-size: 24px;
+    margin-top: 32px;
+    color: #969696;
 }
 
 .main-section-variedades span{
-    font-size: 32px;
     margin-top: 32px;
-    display: block;
 }
 
 .main-section-variedades button{
     background: #0B1D03;
     color: white;
     text-align: center;
-    margin-top: 48px;
-    margin-bottom: 32px;
+    margin: 48px 32px 32px 32px;
     width: 395px;
     height: 76px;
     border-radius: 4px;
     font-size: 20px;
+    display: block;
 }
 
 .main-section-catalogo{
     background-color:#FFFCF6;
     width: 1600px;
 }
-
+.main-section-catalogo nav{
+    margin-left: 178px;
+   
+}
+.main-section-catalogo span{
+    display: block;
+    font-family:'Gilroy', sans-serif;
+    margin-top: 24px;
+}
 .main-section-catalogo li{
     display: inline-block;
     margin-top: 120px;
-}
-
-.main-section-catalogo img{
-    display: inline-block;
-    margin-right: 50px;
+    margin-right: 160px;
+    text-align: center;
 }
 
 .main-aside-catalogo{
@@ -241,12 +257,13 @@ header{
     font-family: 'Gilroy', sans-serif;
     font-size: 20px;
     border-radius: 4px;
+    padding-left: 28px;
     height: 76px;
 }
 
 #input-cidade{
     width: 459px;
-    margin:  48px 32px 24px 80px;
+    margin:  48px 20px 24px 80px;
 }
 
 #input-endereco{
