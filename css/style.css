@@ -223,7 +223,7 @@ header{
 }
 
 .catalogo-cafe{
-    background-image:url("../img/catalogo-cafe.png");
+    background-image:url("../img/catalogo-cafe.jpg");
     width: 704px;
     height: 560px;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ header{
 }
 
 .acessorios{
-    background-image:url("../img/acessorios.png");
+    background-image:url("../img/acessorios.jpg");
     width: 704px;
     height: 560px;
     background-repeat: no-repeat;
