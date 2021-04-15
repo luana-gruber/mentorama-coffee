@@ -14,142 +14,132 @@ body{
     font-family: 'Playfair Display', sans-serif;
 }
 
-header{
+.header{
     background-image:url("../img/principal.png");
     background-repeat: no-repeat;
     width: 1600px;
     height: 900px;
     color: white; 
+    padding-top: 32px;
 }
 
-.header-menu {
-    display: inline-block;
-    margin: 32px 627px 0px 80px;
-}
-
+.container{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+.container-flex{
+      display: flex;
+  }
+  
+.container-flex-spaced{
+      justify-content: space-between;
+      align-items: center;
+  }
+  
 .header-h2 {
-    display: inline-block;
     font-size: 28px;
 }
 
-.header-carrinho {
-    display: inline-block;
-    margin-left: 610px;
-}
-
 .header-section-paginas {
-    margin: 195px 0px 40px 80px ;
+    margin: 195px 0px 40px 0px ;
 }
 
 .header-section-h2 {
     font-size: 80px;
-    margin-left: 80px;
     line-height: 88px;
 }
 
 .header-section-p {
     font-size: 32px;
     font-family: 'Gilroy', sans-serif;
-    margin: 24px 0px 120px 80px ;
+    margin: 24px 0px 120px 0px ;
 }
 
 .header-section-setas {
-    display: inline-block;
-    margin: 0px 0px 104px 80px ;
+    display: inline-flex;
+    margin-bottom:104px;
 }
 
 .main-section-inicial{
     background-color:#FFFCF6;
     width: 1600px;
 }
-.main-div-1 {
-    display: inline-block;
-    width: 49%;
-    margin-top: 120px;
-    vertical-align: top;
+
+.container-section-inicial{
+    justify-content: space-between;
+    align-items: initial;
 }
-.main-div-1 img {
-    display: inline-block;
-    margin-left: 80px;
+
+.main-div-1 {
+    margin-top: 120px;
 }
 
 .main-div-1 h2{
-    display: inline-block;
-    margin-left: 155px;
     font-size: 56px;
     text-align: justify;
 }
 
 .main-div-1 p {
-    display: inline-block;
-    margin-left: 155px;
     margin-top: 32px;
     font-size: 32px;
     width: 581px;
     font-family: 'Gilroy', sans-serif;
     text-align: left;
     line-height: 40px;
+    font-weight: 700; 
 }
 
 .main-div-2 {
-    display: inline-block;
-    width: 49%;
     margin-top: 144px;
-    vertical-align: top;
 }
 .main-div-2 img {
-    display: inline-block;
     margin-left: 32px;
     margin-bottom: 184px;
 }
 
 .main-div-2 h2{
-    display: inline-block;
-    margin-left: 203px;
     font-size: 56px;
     text-align: justify;
 }
 
 .main-div-2 p {
-    display: inline-block;
-    margin-left: 203px;
     margin-top: 32px;
     font-size: 32px;
     width: 581px;
     font-family: 'Gilroy', sans-serif;
     text-align: left;
     line-height: 40px;
+    font-weight: 700;
 }
 
-.main-section-variedades{
+.main-section-variedades {
     font-family: 'Gilroy', sans-serif;
     background-color:#FFFCF6;
     width: 1600px;
 }
 
-.main-section-variedades ul{
-    margin-left: 80px;
-    
-}
 .main-section-variedades h2{
     font-family: 'Playfair Display', sans-serif;
     color: #A0996C;
     font-size: 56px;
-    margin: 0px 0px 64px 80px;
+    margin: 0px 0px 64px 0px;
 }
 
 .main-section-variedades h3{
     font-size: 24px;
-    margin: 40px 90px 48px 90px;
+    margin: 0px 90px 48px 90px;
+    padding-top: 40px;
 }
 
 .main-section-variedades li{
-    background: #F7F1E6;
     display: inline-block;
+    width: 459px;
+    background: #F7F1E6;
     border-radius: 8px;
     text-align: center;
-    font-size: 24px;
-    margin-right: 32px;
+    margin-right: 16px;
     margin-bottom: 32px;
     font-size: 32px;
 }
@@ -177,60 +167,54 @@ header{
     width: 395px;
     height: 76px;
     border-radius: 4px;
-    font-size: 20px;
-    display: block;
+    font-size: 20px;  
 }
 
 .main-section-catalogo{
     background-color:#FFFCF6;
     width: 1600px;
 }
-.main-section-catalogo nav{
-    margin-left: 178px;
-   
-}
+
 .main-section-catalogo span{
+    margin-top: 24px;
     display: block;
     font-family:'Gilroy', sans-serif;
-    margin-top: 24px;
 }
-.main-section-catalogo li{
-    display: inline-block;
-    margin-top: 120px;
-    margin-right: 160px;
+.main-section-catalogo ul{
+    display: inline-flex;
     text-align: center;
+}
+.main-catalago-items{
+    width: 262px;
+    margin-top: 150px;
 }
 
 .main-aside-catalogo{
     background-color:#FFFCF6;
     width: 1600px;
-    display: inline-block;
 }
 
+.main-catalago-items{
+    display: block;
+}
 .main-aside-catalogo h2{
-    margin-top: 388px;
-    margin-left: 40px;
+    padding: 388px 0 0 40px;
     font-size: 56px;
-
 }
 .main-aside-catalogo p{
     font-family: 'Gilroy', sans-serif;
     font-size: 20px;
-    margin-left: 40px;
-    margin-top: 24px;
-    line-height: 26px;
+    padding: 24px 0 0 40px;
     width: 451px;
+    line-height: 26px;
 }
-
 .catalogo-cafe{
     background-image:url("../img/catalogo-cafe.jpg");
     width: 704px;
     height: 560px;
     background-repeat: no-repeat;
     color: white;
-    display: inline-block;
-    margin:  68px 32px 200px 80px;
-    text-align: justify;
+    margin: 68px 0px 200px 0px;
 }
 
 .acessorios{
@@ -239,8 +223,7 @@ header{
     height: 560px;
     background-repeat: no-repeat;
     color: white;
-    display: inline-block;
-    text-align: justify;
+    margin: 68px 0px 200px 0px;
 }
 
 .main-section-final{
