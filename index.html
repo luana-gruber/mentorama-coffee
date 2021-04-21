@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
 
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
 
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
@@ -19,15 +20,23 @@
 <body>
     <header class="header">
         <div>
-            <div class="container container-flex container-flex-spaced">
-                <img class="header-menu" src="./img/menu.png" />
+            <div class="container container-flex container-flex-spaced"> 
+                <div class="header-menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <h1 class="header-h2">Black<i>Coffee</i></h1>
                 <img class="header-carrinho" src="./img/carrinho.png" />
             </div>
         </div>
         <section>
             <div class="container">
-                <img class="header-section-paginas" src="./img/paginas.png" />
+                <div class="header-slide">
+                    <span class="header-slide-item header-slide-active" tabindex="0"></span>
+                    <span class="header-slide-item" tabindex="1"></span>
+                    <span class="header-slide-item" tabindex="2"></span>
+                </div>
                 <div>
                     <h2 class="header-section-h2">Preparamos o <br /> melhor café fresco <br />da torra de cada dia</h2>
                     <p class="header-section-p">Entregamos em todo Brasil</p>
