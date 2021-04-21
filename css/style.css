@@ -101,6 +101,10 @@ body{
     margin-bottom:104px;
 }
 
+.header-seta-esq {
+    margin-right: 20px;
+}
+
 .main-section-inicial{
     background-color:#FFFCF6;
     width: 1600px;
@@ -118,6 +122,7 @@ body{
 .main-div-1 h2{
     font-size: 56px;
     text-align: justify;
+    margin-left: 155px;
 }
 
 .main-div-1 p {
@@ -128,6 +133,7 @@ body{
     text-align: left;
     line-height: 40px;
     font-weight: 700; 
+    margin-left: 155px;
 }
 
 .main-div-2 {
@@ -138,6 +144,7 @@ body{
 .main-div-2 h2{
     font-size: 56px;
     text-align: justify;
+    margin-left: 123px;
 }
 
 .main-div-2 p {
@@ -148,6 +155,7 @@ body{
     text-align: left;
     line-height: 40px;
     font-weight: 700;
+    margin-left: 123px;
 }
 
 .main-section-variedades {
@@ -169,15 +177,20 @@ body{
     padding-top: 40px;
 }
 
+
 .main-section-variedades li{
     display: inline-block;
     width: 459px;
+    height: 560px;
     background: #F7F1E6;
     border-radius: 8px;
     text-align: center;
-    margin-right: 16px;
     margin-bottom: 32px;
     font-size: 32px;
+}
+
+.main-variedades-items{
+    margin-right: 27px;
 }
 
 .main-section-variedades img{
@@ -188,11 +201,13 @@ body{
 .span-valor{
     font-size: 24px;
     margin-top: 32px;
+    font-family: Gilroy;
     color: #969696;
 }
 
-.main-section-variedades span{
+.variedades-span1{
     margin-top: 32px;
+    font-weight: 700;
 }
 
 .main-section-variedades button{
@@ -209,6 +224,7 @@ body{
 .main-section-catalogo{
     background-color:#FFFCF6;
     width: 1600px;
+   
 }
 
 .main-section-catalogo span{
@@ -266,10 +282,12 @@ body{
     font-size: 56px;
     width: 1600px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .main-section-final img{
     margin-left: 80px;
+    border-radius: 4px;
 }
 
 .main-section-final input{
@@ -286,6 +304,9 @@ body{
 }
 
 #input-endereco{
+    background-image: url("../img/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: 898px 29px;
     width: 949px;
 }
 
@@ -297,6 +318,7 @@ body{
     background: #F7F1E6;
     width: 1600px;
     font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
     text-align: justify;
     
 }
@@ -316,6 +338,8 @@ body{
 }
 .footer-final a{
     text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 400;
 }
 
 .footer-final div{
@@ -335,5 +359,17 @@ body{
 
 .footer-redes li{
     display: inline-block;
+}
+
+.footer-mentorama {
+    padding-bottom: 24px;
+}
+
+
+.footer-mentorama span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 650px;
+    margin-right: 8px;
 }
 
