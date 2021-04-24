@@ -239,6 +239,7 @@ body{
 .main-catalago-items{
     width: 262px;
     margin-top: 150px;
+    margin-right: 32px;
 }
 
 .main-aside-catalogo{
@@ -364,7 +365,6 @@ body{
 .footer-mentorama {
     padding-bottom: 24px;
 }
-
 
 .footer-mentorama span{
     font-size: 20px;
