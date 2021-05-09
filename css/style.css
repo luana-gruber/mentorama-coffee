@@ -84,7 +84,9 @@ body{
 .header-slide-active{
     opacity: 1;
 }
-
+.header-carrinho{
+    cursor: pointer;
+}
 .header-section-h2 {
     font-size: 80px;
     line-height: 88px;
@@ -379,6 +381,7 @@ body{
     font-family: 'Gilroy', sans-serif;
     font-size: 20px;
     padding-left:48px ;
+
 }
 .form-title{
     display: inline-flex;
@@ -422,4 +425,61 @@ body{
     font-weight: bold;
     font-family: 'Gilroy', sans-serif;
 }
+.modal-form::backdrop{
+    background: rgba (0,0,0,.7);
+}
+
+.modal-form[open]{
+    border:0;    
+    position: absolute;  
+    max-height: 200vh;     
+    transform: translateX(104%) translateY(0%);
+}
+
+.modal2{
+    width: 499px;
+    height: 316px;
+    cursor: pointer;
+    padding: 48px 48px;
+}
+.modal2-div{
+    font-family: 'Gilroy', sans-serif;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    width: 403px;
+    height: 164px;
+}
+.modal2 h2{
+    font-family: 'Gilroy', sans-serif;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.modal2-div img, ul, h3{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+.modal2-img{
+    margin: 24px 24px;
+}
+
+.modal2-div span{
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.modal2-div a{
+    color: #A0996C;
+    text-decoration: none;
+}
+.modal2[open]{
+    position: absolute;
+    border: 0;
+    transform: translateX(63.5%) translateY(0%);
+}
+
 
