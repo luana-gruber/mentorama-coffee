@@ -429,6 +429,10 @@ body{
     background: rgba (0,0,0,.7);
 }
 
+.modal2::backdrop{
+    background: rgba (0,0,0,.7);
+}
+
 .modal-form[open]{
     border:0;    
     position: absolute;  
@@ -439,9 +443,12 @@ body{
 .modal2{
     width: 499px;
     height: 316px;
-    cursor: pointer;
     padding: 48px 48px;
+    transform: translateX(63.5%) translateY(0%);
+    border: none;
+    position: absolute;
 }
+
 .modal2-div{
     font-family: 'Gilroy', sans-serif;
     border-radius: 4px;
@@ -449,19 +456,26 @@ body{
     width: 403px;
     height: 164px;
 }
-.modal2 h2{
+.modal2-title{
     font-family: 'Gilroy', sans-serif;
     font-size: 32px;
     margin-bottom: 16px;
 }
 
-.modal2-div img, ul, h3{
+.modal2-div h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal2-items{
     vertical-align: middle;
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
 }
 .modal2-img{
+    vertical-align: middle;
+    display: inline-block;
     margin: 24px 24px;
 }
 
@@ -475,11 +489,6 @@ body{
 .modal2-div a{
     color: #A0996C;
     text-decoration: none;
-}
-.modal2[open]{
-    position: absolute;
-    border: 0;
-    transform: translateX(63.5%) translateY(0%);
 }
 
 
