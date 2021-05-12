@@ -381,6 +381,8 @@ body{
     font-family: 'Gilroy', sans-serif;
     font-size: 20px;
     padding-left:48px ;
+    display: inline-block;
+    background: #FFFFFF;
 
 }
 .form-title{
@@ -429,64 +431,62 @@ body{
     background: rgba (0,0,0,.7);
 }
 
-.modal2::backdrop{
-    background: rgba (0,0,0,.7);
-}
-
 .modal-form[open]{
     border:0;    
-    position: absolute;  
+    position: absolute;
+    display: inline-flex;  
     max-height: 200vh;     
-    transform: translateX(104%) translateY(0%);
+    background: none;
+    transform: translateX(24.8%) translateY(0%);
 }
 
-.modal2{
+.item-carrinho{
     width: 499px;
     height: 316px;
     padding: 48px 48px;
-    transform: translateX(63.5%) translateY(0%);
     border: none;
-    position: absolute;
+    position: relative;
+    background: #FFFFFF;
 }
 
-.modal2-div{
+.item-carrinho-div{
     font-family: 'Gilroy', sans-serif;
     border-radius: 4px;
     background-color: #F2F2F2;
     width: 403px;
     height: 164px;
 }
-.modal2-title{
+.item-carrinho-title{
     font-family: 'Gilroy', sans-serif;
     font-size: 32px;
     margin-bottom: 16px;
 }
 
-.modal2-div h3{
+.item-carrinho-div h3{
     font-size: 20px;
     font-weight: 500;
 }
 
-.modal2-items{
+.carrinho-items{
     vertical-align: middle;
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
 }
-.modal2-img{
+.item-carrinho-img{
     vertical-align: middle;
     display: inline-block;
     margin: 24px 24px;
 }
 
-.modal2-div span{
+.item-carrinho-div span{
     display: block;
     font-weight: bold;
     font-size: 32px;
     margin-top: 8px;
     margin-bottom: 16px;
 }
-.modal2-div a{
+.item-carrinho-div a{
     color: #A0996C;
     text-decoration: none;
 }

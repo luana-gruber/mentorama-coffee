@@ -29,9 +29,18 @@
                 <img class="header-carrinho" src="./img/carrinho.png" alt="carrinho de compras" />
                 
                 <dialog class="modal-form">
-                    
+                    <div class="item-carrinho">
+                        <h2 class="item-carrinho-title">Seus produtos: 1 item</h2>
+                        <div class="item-carrinho-div">
+                            <img class="item-carrinho-img" src="./img/modalproduto.png" alt="pacote de café"/>
+                            <ul class="carrinho-items">
+                            <li><h3>RUANDA UMARAGE NAT</h3></li>
+                            <li><span>40 R$</span></li>
+                            <li><a href="#">Excluir</a></li>
+                        </ul>
+                        </div>
+                    </div>
                     <form class="form-pessoal" action="">
-                        
                         <label>
                             <img class="form-fechar" src="./img/fechar-form.svg" alt="ícone para fechar" />
                             <h3 class="form-title">Dados pessoais</h3>
@@ -50,31 +59,18 @@
                         <button class="form-button">Seguinte</button>
                     </form>
                 </dialog>
-                <dialog class="modal2">
-                    <h2 class="modal2-title">Seus produtos: 1 item</h2>
-                    <div class="modal2-div"> 
-                        <img class="modal2-img" src="./img/modalproduto.png" alt="pacote de café"/>
-                        <ul class="modal2-items">
-                        <li><h3>RUANDA UMARAGE NAT</h3></li>
-                        <li><span>40 R$</span></li>
-                        <li><a href="#">Excluir</a></li>
-                    </ul>
-                    </div>
-                </dialog>
+               
                 <script>
                     const OPEN_BUTTON = document.querySelector('.header-carrinho');
                     const CLOSE_BUTTON = document.querySelector('.form-fechar');
                     const body = document.querySelector('body');
                     const modal = document.querySelector('.modal-form');
-                    const modal2 = document.querySelector('.modal2');
     
                     const openModal = () =>{
-                        modal2.showModal();
                         modal.showModal();
                     };
 
                     const closeModal = () =>{
-                        modal2.close();
                         modal.close();
                     };
     
