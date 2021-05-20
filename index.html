@@ -27,19 +27,22 @@
                 </div>
                 <h1 class="header-h2">Black<i>Coffee</i></h1>
                 <img class="header-carrinho" src="./img/carrinho.png" alt="carrinho de compras" />
-                
+         
+           
                 <dialog class="modal-form">
-                    <div class="item-carrinho">
-                        <h2 class="item-carrinho-title">Seus produtos: 1 item</h2>
-                        <div class="item-carrinho-div">
-                            <img class="item-carrinho-img" src="./img/modalproduto.png" alt="pacote de café"/>
-                            <ul class="carrinho-items">
-                            <li><h3>RUANDA UMARAGE NAT</h3></li>
-                            <li><span>40 R$</span></li>
-                            <li><a href="#">Excluir</a></li>
-                        </ul>
+                    <dialog class="modal-form-2">
+                        <div class="item-carrinho">
+                            <h2 class="item-carrinho-title">Seus produtos: 1 item</h2>
+                            <div class="item-carrinho-div">
+                                <img class="item-carrinho-img" src="./img/modalproduto.png" alt="pacote de café"/>
+                                <ul class="carrinho-items">
+                                <li><h3>RUANDA UMARAGE NAT</h3></li>
+                                <li><span>40 R$</span></li>
+                                <li><a class="modal2-excluir" href="#">Excluir</a></li>
+                            </ul>
+                            </div>
                         </div>
-                    </div>
+                    </dialog>
                     <form class="form-pessoal" action="">
                         <label>
                             <img class="form-fechar" src="./img/fechar-form.svg" alt="ícone para fechar" />
@@ -54,13 +57,31 @@
                             placeholder="Número de telefone Ex. (00)00000-0000" required />
                         <input class="form-items" type="email" placeholder="E-mail" required />
                         <input class="form-items" type="text" placeholder="Endereço de entrega" required />
-                        <textarea class="form-items form-textarea" placeholder="Comentários" id="textarea"></textarea>
-
+                        <textarea class="form-items form-textarea" placeholder="Comentários" id="textarea" required></textarea>
+                    
                         <button class="form-button">Seguinte</button>
+                    
                     </form>
                 </dialog>
-               
+
                 <script>
+
+                    const OPEN_BUTTON2 = document.querySelector('.form-button');
+                    const CLOSE_BUTTON2 = document.querySelector('.modal2-excluir');
+                    const modal2 = document.querySelector('.modal-form-2');
+
+                    const openModal2 = () =>{
+                        modal2.showModal();
+                    };
+
+                    const closeModal2 = () =>{
+                        modal2.close();
+                    };
+
+                    OPEN_BUTTON2.addEventListener('click', openModal2);
+                    CLOSE_BUTTON2.addEventListener('click', closeModal2);
+
+
                     const OPEN_BUTTON = document.querySelector('.header-carrinho');
                     const CLOSE_BUTTON = document.querySelector('.form-fechar');
                     const body = document.querySelector('body');
@@ -76,7 +97,7 @@
     
                     OPEN_BUTTON.addEventListener('click', openModal);
                     CLOSE_BUTTON.addEventListener('click', closeModal);
-    
+                    
                 </script>
             </div>
         <section>

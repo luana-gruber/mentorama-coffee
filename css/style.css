@@ -427,9 +427,6 @@ body{
     font-weight: bold;
     font-family: 'Gilroy', sans-serif;
 }
-.modal-form::backdrop{
-    background: rgba (0,0,0,.7);
-}
 
 .modal-form[open]{
     border:0;    
@@ -437,7 +434,19 @@ body{
     display: inline-flex;  
     max-height: 200vh;     
     background: none;
-    transform: translateX(24.8%) translateY(0%);
+    transform: translateX(104%) translateY(0%);
+}
+
+.modal-form-2[open]{
+    border:0;    
+    position: absolute;
+    display: inline-flex;  
+    max-height: 200vh;     
+    background: none;
+    transform: translateX(63.7%) translateY(0%);
+}
+.modal-form::backdrop{
+    background: rgba (0,0,0,.9);
 }
 
 .item-carrinho{
