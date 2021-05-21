@@ -434,7 +434,7 @@ body{
     display: inline-flex;  
     max-height: 200vh;     
     background: none;
-    transform: translateX(104%) translateY(0%);
+    transform: translateX(24.8%) translateY(0%);
 }
 
 .modal-form-2[open]{
