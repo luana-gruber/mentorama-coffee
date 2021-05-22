@@ -428,25 +428,17 @@ body{
     font-family: 'Gilroy', sans-serif;
 }
 
+.modal-form::backdrop{
+    background-color: rgba(0,0,0,.5);
+}
+
 .modal-form[open]{
     border:0;    
-    position: absolute;
+    position: fixed;
     display: inline-flex;  
     max-height: 200vh;     
     background: none;
     transform: translateX(24.8%) translateY(0%);
-}
-
-.modal-form-2[open]{
-    border:0;    
-    position: absolute;
-    display: inline-flex;  
-    max-height: 200vh;     
-    background: none;
-    transform: translateX(63.7%) translateY(0%);
-}
-.modal-form::backdrop{
-    background: rgba (0,0,0,.9);
 }
 
 .item-carrinho{
@@ -495,9 +487,10 @@ body{
     margin-top: 8px;
     margin-bottom: 16px;
 }
-.item-carrinho-div a{
+.item-carrinho-link{
     color: #A0996C;
     text-decoration: none;
+    outline: none;
 }
 
 
