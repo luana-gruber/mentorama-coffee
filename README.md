@@ -1,5 +1,4 @@
-Projeto que está sendo desenvolvido nas aulas do curso de Front-End do zero (Mentorama).
+Projeto que está sendo desenvolvido nas aulas do curso de Front-End PRO (Mentorama).
 
-- Modificado fundo do modal para o mesmo do modelo figma;
-- Dimensões do modal ajustadas. 
+Módulo 1 - Aplicando conceitos de adaptatividade no tamanho Desktop e Tablet. 
 
