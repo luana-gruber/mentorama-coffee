@@ -16,7 +16,6 @@ body{
 
 .container {
     max-width: 100%;
-    padding: 0 80px;
 }
 
 .container-flex-spaced{
@@ -29,7 +28,7 @@ body{
 .section__variedades {
     font-family: 'Gilroy', sans-serif;
     background-color:#FFFCF6;
-    width: 1600px;
+    width: 100%;
 }
 
 .section__variedades--title{
@@ -44,7 +43,7 @@ body{
     border-radius: 8px;
     text-align: center;
     font-size: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 32px; 
 }
 
 .variedades__items--subtitle{
@@ -54,7 +53,8 @@ body{
 
 .variedades__items--img{
     display: block;
-    padding: 48px 144px 32px 144px;
+    padding: 48px 0px 32px 0px;
+    
 }
 
 .variedades__items--price-promo{
@@ -81,14 +81,29 @@ body{
     line-height: 28px;
     cursor: pointer;
 }
+@media screen and (min-width: 1600px) {
+    .container {
+        padding: 0 80px;
+    }
+    .section__variedades--items{
+         width: 31.9%;
+    }
+    .variedades__items--img{
+        margin-inline: 31.5%;
+    }
+    .variedades__items--button{
+        width: 86%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .container {
         padding: 0 15px;
     }
-    .section__variedades {
-        max-width: 100%;
-        margin:auto;
+
+    .section__variedades--title{
+        font-size: 33px;
+        margin:0px 0px 24px 0px;
     }
     .section__variedades--items{
         width: 49%;
@@ -103,13 +118,33 @@ body{
         font-weight: 500;
     }
     .variedades__items--img{
-        padding: 24px 106px;
+        padding: 24px 0px;
+        margin-inline: 29.4%;
     }
 }
 
-@media screen and (min-width: 1601px) {
-    .section__variedades {
+@media screen and (max-width: 375px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .section__variedades--items{
         width: 100%;
-        margin:none;
+    }
+    .variedades__items--button{
+        max-width: 85%;
+        font-size: 18px;
+        margin: 24px 20px 39px 20px;
+    }
+    .variedades__items--subtitle{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .variedades__items--img{
+        padding: 24px 0px 24px 0px;
+        margin-inline: 29%;
+        max-width: 100%;;
+       
     }
 }
+
