@@ -15,9 +15,8 @@ body{
 }
 
 .container {
-    width: 1440px;
     max-width: 100%;
-    margin: 0 auto;
+    padding: 0 80px;
 }
 
 .container-flex-spaced{
@@ -39,17 +38,8 @@ body{
     font-size: 56px;
     margin:0px 0px 64px 0px;
 }
-
-.variedades__items--subtitle{
-    font-size: 24px;
-    margin: 0px 90px 48px 90px;
-    padding-top: 40px;
-}
-
 .section__variedades--items{
     display: inline-block;
-    width: 459px;
-    height: 560px;
     background: #F7F1E6;
     border-radius: 8px;
     text-align: center;
@@ -57,16 +47,21 @@ body{
     margin-bottom: 32px;
 }
 
-.variedades__items--img{
-    display: block;
-    margin: 0px 0px 32px 144px;
+.variedades__items--subtitle{
+    font-size: 24px;
+    padding-top: 40px;
 }
 
-.variedades__items--span1{
+.variedades__items--img{
+    display: block;
+    padding: 48px 144px 32px 144px;
+}
+
+.variedades__items--price-promo{
     font-weight: 700;
 }
 
-.variedades__items--span2{
+.variedades__items--price-full{
     font-size: 24px;
     font-weight: 500;
     color: #969696;
@@ -77,41 +72,44 @@ body{
     color: white;
     text-align: center;
     margin: 48px 32px 32px 32px;
-    width: 395px;
-    height: 76px;
+    width: 86%;
+    padding: 5.6% 0px;
     border-radius: 4px;
     font-size: 20px;  
+    border:none;
+    font-weight:700;
+    line-height: 28px;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        max-width: 737px;
-        margin: 0 auto;
+        padding: 0 15px;
     }
     .section__variedades {
-        max-width: 768px;
+        max-width: 100%;
+        margin:auto;
     }
-    .section__variedades--items {
-        max-width: 354px;
-        max-height:453px;
-        margin-bottom: 30px;
+    .section__variedades--items{
+        width: 49%;
     }
     .variedades__items--button{
-        max-width: 300px;
-        max-height: 61px;
+        max-width: 85%;
+        font-size: 18px;
         margin: 24px 27px 40px 27px;
     }
-    .section__variedades--title{
-        margin-bottom: 30px;
-    }
-    
     .variedades__items--subtitle{
         font-size: 18px;
         font-weight: 500;
-        margin: 0px 0px 24px 0px;
     }
     .variedades__items--img{
-        margin: 0px 0px 24px 106px;
+        padding: 24px 106px;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    .section__variedades {
+        width: 100%;
+        margin:none;
     }
 }
