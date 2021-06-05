@@ -35,7 +35,7 @@ body{
     font-family: 'Playfair Display', sans-serif;
     color: #A0996C;
     font-size: 56px;
-    margin:0px 0px 64px 0px;
+    padding-bottom: 4.4%;
 }
 .section__variedades--items{
     display: inline-block;
@@ -44,6 +44,8 @@ body{
     text-align: center;
     font-size: 32px;
     margin-bottom: 32px; 
+    padding: 0px 16px;
+    box-sizing: border-box;
 }
 
 .variedades__items--subtitle{
@@ -54,7 +56,7 @@ body{
 .variedades__items--img{
     display: block;
     padding: 48px 0px 32px 0px;
-    
+    margin: 0 auto;
 }
 
 .variedades__items--price-promo{
@@ -71,7 +73,7 @@ body{
     background: #0B1D03;
     color: white;
     text-align: center;
-    margin: 48px 32px 32px 32px;
+    margin: 48px 0px 32px 0px;
     width: 86%;
     padding: 5.6% 0px;
     border-radius: 4px;
@@ -81,16 +83,15 @@ body{
     line-height: 28px;
     cursor: pointer;
 }
-@media screen and (min-width: 1600px) {
+
+ @media screen and (min-width: 769px) {
     .container {
         padding: 0 80px;
     }
     .section__variedades--items{
-         width: 31.9%;
+        width: 31.9%;
     }
-    .variedades__items--img{
-        margin-inline: 31.5%;
-    }
+
     .variedades__items--button{
         width: 86%;
     }
@@ -103,7 +104,6 @@ body{
 
     .section__variedades--title{
         font-size: 33px;
-        margin:0px 0px 24px 0px;
     }
     .section__variedades--items{
         width: 49%;
@@ -111,19 +111,15 @@ body{
     .variedades__items--button{
         max-width: 85%;
         font-size: 18px;
-        margin: 24px 27px 40px 27px;
+        margin: 24px 0px 40px 0px;
     }
     .variedades__items--subtitle{
         font-size: 18px;
         font-weight: 500;
     }
-    .variedades__items--img{
-        padding: 24px 0px;
-        margin-inline: 29.4%;
-    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .container {
         padding: 0 10px;
     }
@@ -134,17 +130,13 @@ body{
     .variedades__items--button{
         max-width: 85%;
         font-size: 18px;
-        margin: 24px 20px 39px 20px;
+        margin: 24px 0px 39px 0px;
     }
     .variedades__items--subtitle{
         font-size: 18px;
         font-weight: 500;
     }
     .variedades__items--img{
-        padding: 24px 0px 24px 0px;
-        margin-inline: 29%;
-        max-width: 100%;;
-       
+        max-width: 100%;
     }
-}
-
+} 
